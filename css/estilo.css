@@ -1,0 +1,164 @@
+header {
+    width: 80%;
+    margin: auto;
+}
+
+.div_header {
+    height: 50px;
+    background-color: #081a24;
+}
+
+.logo {
+    float: left;
+    margin-top: 7px;
+    margin-left: 200px;
+}
+
+nav ul {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    float: right;
+    color: #1c4556;
+    margin-right: 50px;
+    margin-top: 16px;
+}
+
+li {
+    display: inline-block;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+nav li:hover {
+    color: #0a2d3b;
+}
+
+.div_img {
+    background-image: url('../imagens/topo.jpg');
+    height: 485px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+article {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+article h1 {
+    margin-top: 75px;
+    font-size: 35px;
+    color: #202020;
+}
+
+article p {
+    width: 70%;
+    margin: auto;
+    color: #71777c;
+    line-height: 35px;
+    font-size: 18px;
+}
+
+.sec2 {
+    overflow: auto;
+    width: 66%;
+    margin: auto;
+}
+
+.card {
+    margin-top: 80px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card1, .card2 {
+    margin-right: 2%;
+}
+
+div {
+    font-family: sans-serif;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.sec2 h2 {
+    color: #545456;
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+div p {
+    color: #aab3bd;
+    margin-top: 10px;   
+}
+
+.sec3 {
+    box-sizing: border-box;
+    background-image: url('../imagens/bg_detalhe.png');
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #013b53;
+    padding-top: 80px;
+    margin-top: 70px;
+}
+
+.sec3 h2 {
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 300px;
+}
+
+.sec3 p {
+    box-sizing: border-box;
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+    padding-right: 250px;
+    padding-bottom: 100px;
+}
+
+.call_me {
+    margin: 40px 0px;
+}
+
+.call_me h2 {
+    color: #043d53;
+    text-transform: uppercase;
+}
+
+
+.div_footer {
+    width: 80%;
+    margin: auto;
+    background-color: #001018;
+    height: 40px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.div_footer p {
+    font-family: sans-serif;
+    padding-top: 14px;
+    color: #386c78;
+    font-size: 10px;
+    letter-spacing: 3px;
+}
